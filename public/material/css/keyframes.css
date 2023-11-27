@@ -1,0 +1,235 @@
+@media (max-width: 700px) {
+
+    /********************NAVBAR********************/
+
+    header {
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.301);
+        width: 80%;
+        margin-left: 57px;
+        margin-top: 25px;
+        background-color: #ffffff;
+        padding: 10px 10px;
+        position: fixed;
+    }
+
+    .menu-toggle{
+        color: #6e6e6e;
+        display: block;
+        margin: auto 10px auto auto;
+    }
+
+    #menu{
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.301);
+        background-color: #ffffff;
+        position: absolute;
+        z-index: 5;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: .3s ease-out;
+    }
+
+    #menu ul {
+        flex-direction: column;
+    }
+
+    #menu ul li {
+        display: block;
+    }
+
+    #menu ul li a {
+        color: #6e6e6e;
+        font-size: 13px;
+        width: 100%;
+        padding: 15px 25px;
+    }
+
+    #menu ul li a:hover{
+        background-color: #9695953f;
+        width: 100%;
+        color: rgb(82, 77, 77);
+    }
+
+    .btnNav{
+        border-radius: 50px;
+        text-align: center;
+        width: 95%;
+        margin: 5px auto;
+    }
+    /**********************HOME**********************/
+
+    /************HEADER*************/
+    .box-header-text{
+        margin-top: 250px;
+        margin-left: 30px;
+    }
+
+    /**********SECTION-ONE**********/
+
+    .box-info-one p {
+        margin-top: 40px;
+    }
+
+    .cont_image{
+        position: absolute;
+    }
+
+    .box-cont-img{
+        display: none;
+    }
+
+    /**********SECTION-TWO**********/
+
+    .box-info-two {
+        height: 250px;
+        width: 100%;
+    }
+
+    .img-info h1 {
+        font-size: 50px;
+        /* margin: 40px 0px 0px 0px; */
+    }
+
+    .img-info h2 {
+        font-size: 40px;
+        /* margin: 100px 0px 0px 0px; */
+    }
+
+    .parallax-img {
+        height: 250px;
+    }
+
+    .bg-info-two {
+        height: 250px;
+    }
+
+    /*********SECTION-THREE*********/
+
+    .decorated-bottom {
+        height: 23px;
+    }
+
+    .decorated-bottom-two{
+        height: 22px;
+    }
+
+    .cont-box-img{
+        flex-direction: column;
+    }
+
+    .cont-item-one{
+        height: 300px;
+        margin: 40px auto;
+        width: 65%;
+    }
+
+    .cont-item-two, .cont-item-three, .cont-item-four{
+        height: 300px;
+        margin: 25px auto;
+        width: 65%;
+    }
+
+    .cont-text{
+        padding: 0;
+    }
+
+    .cont-box-img h4{
+        margin-left: 20px;
+    }
+
+    .cont-box-img p{
+        font-size: 1.1rem;
+    }
+
+    .cont-item-one, .cont-item-two, .cont-item-three, .cont-item-four {
+        width: 100%;
+    }
+
+    /**********SECTION-FOUR**********/
+
+    .box-info-four{
+        padding: 40px 0px;
+    }
+
+    /**********SECTION-FIVE**********/
+    .box-info-five {
+        height: 450px;
+        padding: 10px;
+    }
+
+    .cont-carousel {
+        height: 250px;
+    }
+
+    .cont-carousel h3 {
+        padding-left: 20px;
+    }
+
+
+    /**********************NOSOTROS**********************/
+
+    .hero-info h1, p{
+        margin: 0px 20px 10px 20px;
+    }
+
+    .contact-box div{
+        flex-direction: column;
+    }
+
+    /*********************SERVICIOS*********************/
+
+    .svg-cont p {
+        font-size: 18px;
+        margin: auto;
+    }
+
+    .contact-decorated-bottom{
+        /* height: 20x; */
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        margin-left: 36px;
+    }
+
+    /***********************HOME***********************/
+
+    .img-info h1 {
+        margin-top: 0px;
+    }
+
+    .decorated-bottom {
+        height: 23px;
+        position: relative;
+        bottom: -3px;
+    }
+
+    .decorated-bottom-two{
+        height: 20px;
+        top: -3px;
+        position: relative;
+        width: 100%;
+    }
+
+    .cont-item-one, .cont-item-two, .cont-item-three, .cont-item-four  {
+        height: 100%;
+        padding: 10px;
+    }
+
+    .cont-img-hero{
+        padding: 20px;
+    }
+
+    .svg-img-six {
+        height: 100px;
+    }
+
+    .contact-decorated-bottom{
+        height: 20px;
+    }
+}
+
+

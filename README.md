@@ -1,3 +1,5 @@
+<h3>Este proyecto es una página web desarrollada con el framework Laravel, utilizando Tailwind CSS para darle estilo. La función principal de esta página es promover cursos de fútbol, aunque puede ser fácilmente adaptada para satisfacer las necesidades de cualquier cliente.</h3>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
